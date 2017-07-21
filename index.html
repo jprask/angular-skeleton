@@ -1,15 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Angular2 Skeleton</title>
+        <title>Angular2 Skeletion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie-edge">
 
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles.css">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
 
-        <!-- Libraries -->
-        <!-- Polyfills for older browsers -->
+        <!--  Polyfills for older browsers -->
         <script src="node_modules/core-js/client/shim.min.js"></script>
         <script src="node_modules/zone.js/dist/zone.js"></script>
         <script src="node_modules/reflect-metadata/Reflect.js"></script>
@@ -22,10 +22,12 @@
         <!-- Systemjs Config -->
         <script src="systemjs.config.js"></script>
         <script>
-            System.import('app').catch(function(err){ console.error(err); });
+            System.import('app').catch(function (err) {
+                console.error(err);
+            });
         </script>
     </head>
-    <body>
-        <my-app>Loading, please wait...</my-app>
-    </body>
+<body>
+    <my-app>Loading...</my-app>
+</body>
 </html>
